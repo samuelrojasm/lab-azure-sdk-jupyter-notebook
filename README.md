@@ -7,7 +7,7 @@
 [![Status](https://img.shields.io/badge/Status-Work%20in%20progress-yellow)](#)
 
 
-[![Azure SDK for Python](https://img.shields.io/badge/Azure%20SDK%20for-Python-0078D4?logo=python&logoColor=white)](#)
+[![Azure SDK para Python](https://img.shields.io/badge/Azure%20SDK%20for-Python-0078D4?logo=python&logoColor=white)](#)
 [![Azure SDK](https://img.shields.io/badge/Azure%20SDK-Python-0078D4?logo=microsoft-azure&logoColor=white)](#)
 [![SDK](https://img.shields.io/badge/SDK-Azure-0078D4?logo=azure-devops&logoColor=white)](#)
 
