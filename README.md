@@ -1,6 +1,5 @@
 # 🛠️ Azure SDK Jupyter-Notebooks con Python
 
-[![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)](#)
 [![Azure](https://badgen.net/badge/icon/azure?icon=azure&label)](https://azure.microsoft.com)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](#)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Lab/Notebook-F37626?logo=jupyter&logoColor=white)](#)
