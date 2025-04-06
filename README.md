@@ -3,7 +3,6 @@
 [![Azure](https://badgen.net/badge/icon/azure?icon=azure&label)](https://azure.microsoft.com)
 [![Azure SDK for Python](https://img.shields.io/badge/Azure%20SDK%20for-Python-0078D4?logo=python&logoColor=white)](#)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Lab/Notebook-F37626?logo=jupyter&logoColor=white)](#)
-[![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
 [![Status](https://img.shields.io/badge/Status-Work%20in%20progress-yellow)](#)
 
 - Repositorio con notebooks de laboratorio para probar y demostrar el uso del SDK de Azure (Azure SDK for Python) en notebooks Jupyter. 
