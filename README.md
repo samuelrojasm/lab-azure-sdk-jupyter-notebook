@@ -50,14 +50,14 @@
         az login --use-device-code
         ```
 - Configurar la variable de entorno:
-        ```bash
-        export ARM_SUBSCRIPTION_ID="<SUBSCRIPTION_ID>"
-        ```
+    ```bash
+    export ARM_SUBSCRIPTION_ID="<SUBSCRIPTION_ID>"
+    ```
 ### 3. Configuración de entorno de python
 Para esta opción usamos el gestor de env de python **conda**
 - Crear entorno de desarrollo:
     ```
-    conda create --name azure-sdk ipykernel
+    conda create --name azure-sdk azure-identity azure-mgmt-compute ipykernel
     ```
 - Verificar versión de azure instalada en el env
     ```
