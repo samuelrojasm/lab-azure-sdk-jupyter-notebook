@@ -57,13 +57,23 @@
 Para esta opción usamos el gestor de env de python **conda**
 - Crear entorno de desarrollo:
     ```
-    conda create --name azure-sdk azure-identity azure-mgmt-compute ipykernel
+    conda create --name azure-sdk
     ```
-- Verificar versión de azure instalada en el env
+- Instalar librerias de Azure
     ```
-    conda list -n azure-sdk 
+    conda install -c conda-forge azure-identity azure-mgmt-compute -n azure-sdk
+    ```
+- Lista los paquetes instalados en el environment
+    ```
+    conda list -n azure-sdk
+    conda list -n azure-sdk azure-identity
+    conda list -n azure-sdk azure-mgmt-compute
     ```
 - Instalar librerías adicionales de python
+    - ipykernel
+        ```
+        conda install -c conda-forge ipykernel -n azure-sdk
+        ```
     - Pandas: 
         ```
         conda install -c conda-forge pandas -n azure-sdk
@@ -76,12 +86,16 @@ Para esta opción usamos el gestor de env de python **conda**
         ```
         conda install -c conda-forge pyarrow -n azure-sdk
         ```
-- Activar env de azure-sdk
+- Activar environment de azure-sdk
     ```bash
     conda activate azure-sdk
     ```
+- Desactivar el environment
+`   ``bash
+    conda deactivate
+    ```
 
-### 4. Ejecutar de manera local JupyterLab
+### 4. Ejecutar de manera local Jupyter Notebook
 - Entorno para trabajar con los Notebooks de python
     ```bash
     jupyter-lab
