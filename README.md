@@ -70,7 +70,7 @@ Para esta opción usamos el gestor de env de python **conda**
     conda list -n azure-sdk azure-mgmt-compute
     ```
 - Instalar librerías adicionales de python
-    - ipykernel
+    - ipykernel:
         ```
         conda install -c conda-forge ipykernel -n azure-sdk
         ```
@@ -91,7 +91,7 @@ Para esta opción usamos el gestor de env de python **conda**
     conda activate azure-sdk
     ```
 - Desactivar el environment
-`   ``bash
+`   ```bash
     conda deactivate
     ```
 
