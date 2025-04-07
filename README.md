@@ -22,3 +22,81 @@
 ### Ejemplos Azure
 []()
 
+---
+
+## 🧰 Tecnologías utilizadas
+- [Azure SDK for Python (azure-* packages)](https://learn.microsoft.com/en-us/azure/developer/python/)
+- [Jupyter Notebook](https://jupyter.org/)
+- [Python 3.x](https://www.python.org/)
+- [Conda](https://www.anaconda.com/docs/getting-started/miniconda/main)
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
+
+---
+
+## 🚀 Requisitos
+### 1. Instalar Azure CLI
+- Instalación en macOS:
+    ```bash
+    brew install azure-cli
+    ```
+### 2. Acceso a la suscripción de Azure
+- Autenticación:
+    - Método interactivo (usando el navegador)
+        ```bash
+        az login
+        ```
+    - Método con autenticación interactiva en CLI (sin navegador)
+        ```bash
+        az login --use-device-code
+        ```
+- Configurar la variable de entorno:
+        ```bash
+        export ARM_SUBSCRIPTION_ID="<SUBSCRIPTION_ID>"
+        ```
+### 3. Configuración de entorno de python
+Para esta opción usamos el gestor de env de python **conda**
+- Crear entorno de desarrollo:
+    ```
+    conda create --name azure-sdk ipykernel
+    ```
+- Verificar versión de azure instalada en el env
+    ```
+    conda list -n azure-sdk 
+    ```
+- Instalar librerías adicionales de python
+    - Pandas: 
+        ```
+        conda install -c conda-forge pandas -n azure-sdk
+        ```
+    - duckdb: BD en memoria uso con SQL
+        ```
+        conda install -c conda-forge python-duckdb -n azure-sdk
+        ```
+    - Apache Arrow: formato de columnas en memoria
+        ```
+        conda install -c conda-forge pyarrow -n azure-sdk
+        ```
+- Activar env de azure-sdk
+        ```
+        conda activate azure-sdk
+        ```
+
+### 4. Ejecutar de manera local JupyterLab
+- Entorno para trabajar con los Notebooks de python
+    ```bash
+    jupyter-lab
+    ```
+---
+
+## 📚 Referencias adicionales
+- [Azure for Python Developers](https://learn.microsoft.com/en-us/azure/developer/python/)
+- [Ejemplos de Azure SDK en GitHub](https://github.com/Azure/azure-sdk-for-python)
+- []()
+
+---
+
+## 📌 Notas
+- Es necesario tener una suscripción activa de Azure.
+- Algunos notebooks requieren permisos específicos o recursos ya existentes.
+
+---
