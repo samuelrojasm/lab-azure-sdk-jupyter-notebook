@@ -77,9 +77,9 @@ Para esta opción usamos el gestor de env de python **conda**
         conda install -c conda-forge pyarrow -n azure-sdk
         ```
 - Activar env de azure-sdk
-        ```
-        conda activate azure-sdk
-        ```
+    ```bash
+    conda activate azure-sdk
+    ```
 
 ### 4. Ejecutar de manera local JupyterLab
 - Entorno para trabajar con los Notebooks de python
