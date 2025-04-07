@@ -91,7 +91,7 @@ Para esta opción usamos el gestor de env de python **conda**
     conda activate azure-sdk
     ```
 - Desactivar el environment
-`   ```bash
+    ```bash
     conda deactivate
     ```
 
